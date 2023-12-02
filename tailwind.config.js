@@ -5,6 +5,10 @@ export default {
     extend: {
       colors: {
         "dark-blue": "rgb(0,0,26)",
+        "light-gray": "rgb(93,95,121)",
+        "light-pink": "rgb(241,94,80)",
+        "light-brown": "rgb(233,171,83)",
+        "dark-white": "rgb(197,198,206)",
       },
     },
   },
