@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.s1_excerpt {
+  @apply text-dark-white text-[15px] font-normal leading-[22.5px];
+}
+
+.s1_title {
+  @apply mt-5 leading-[18px] text-lg font-bold focus:text-light-brown hover:text-light-brown;
+}
