@@ -10,6 +10,9 @@ export default {
         "light-brown": "rgb(233,171,83)",
         "dark-white": "rgb(197,198,206)",
       },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],
