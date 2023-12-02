@@ -4,7 +4,7 @@ import desktopImg from "./assets/images/image-web-3-desktop.jpg";
 export default function () {
   return (
     <div
-      className="grid gap-8 mx-4 md:grid-cols-2 lg:grid-cols-3 md:gap-x-4 md:gap-y-10 lg:gap-x-8 
+      className="grid gap-8 mx-4 md:grid-cols-2 lg:grid-cols-3 md:gap-x-4 md:gap-y-10 lg:gap-x-8
     "
     >
       <div className="block md:hidden">
@@ -14,11 +14,11 @@ export default function () {
         <img src={desktopImg} />
       </div>
       <div className="">
-        <h1 className="text-dark-blue font-extrabold max-w-[70rem] text-[40px] leading-[40px] md:text-[53.6px] md:leading-[53.6px]">
+        <h1 className="text-dark-blue font-extrabold text-[40px] leading-[40px] md:text-[53.6px] md:leading-[53.6px]">
           The Bright Future of Web 3.0?
         </h1>
       </div>
-      <div className="space-y-5 lg:row-start-2 lg:col-start-2 md:space-y-8">
+      <div className="space-y-5 lg:row-start-2 lg:col-start-2 md:space-y-8 ">
         <p className="text-[15px] text-light-gray  leading-[22.5px] font-normal">
           We dive into the next evolution of the web that claims to put the
           power of the platforms back into the hands of the people. But is it
@@ -28,7 +28,7 @@ export default function () {
           Read More
         </button>
       </div>
-      <div className="bg-dark-blue text-white p-[30px] md:col-start-1 md:col-end-3 lg:col-start-3 lg:row-start-1 lg:row-end-3">
+      <div className=" bg-dark-blue text-white p-[30px] md:col-start-1 md:col-end-3 lg:col-start-3 lg:row-start-1 lg:row-end-3">
         <h2 className="mb-8 text-light-brown text-[32px] font-bold leading-8">
           New
         </h2>

@@ -2,7 +2,9 @@ import Body from "./Body";
 function App() {
   return (
     <>
-      <Body />
+      <div className="max-w-[70rem] mx-auto">
+        <Body />
+      </div>
     </>
   );
 }
