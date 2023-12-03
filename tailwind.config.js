@@ -13,6 +13,10 @@ export default {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
+      screens: {
+        md: "640px",
+        lg: "960px",
+      },
     },
   },
   plugins: [],
